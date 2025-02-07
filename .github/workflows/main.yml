@@ -38,8 +38,8 @@ jobs:
       - name: check pref
         run: |
           if ls *.py 2>/dev/null | grep -qv '^CS3213'; then\
-          echo "All .py files should begin with CS3213"
-          exit 1
+            echo "All .py files should begin with CS3213"
+            exit 1
           fi
 
   # checkdocumentation:
